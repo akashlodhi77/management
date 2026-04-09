@@ -1,0 +1,548 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-main {
+    width: 100%;
+    background-color: #111FA2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-start {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+}
+
+.logo img {
+    width: 40px;
+    object-fit: cover;
+}
+
+.menu {
+    width: auto;
+
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu ul li a span {
+    background-color: red;
+    padding: 0px 5px;
+    position: absolute !important;
+    top: -19px;
+    left: 33px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.menu-right2 {
+    width: auto;
+    position: relative;
+
+}
+
+.menu-right2 input {
+    padding: 11px;
+    border-radius: 25px;
+    background-color: #0B2D72;
+    border: none;
+    padding-left: 30px;
+}
+
+.menu-right2 input::placeholder {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-right2 span i {
+    position: absolute !important;
+    color: #ffffff;
+    top: 10px !important;
+    left: 8px !important;
+    vertical-align: middle;
+}
+
+.menu-right2 ul {
+    padding: 0px;
+    display: inline-block;
+}
+
+.menu-right2 ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-right2 ul li i {
+    margin-left: 16px;
+    font-size: 20px;
+    background-color: #ffffff;
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+}
+
+.banner-main {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.manage {
+    width: 50%;
+
+}
+
+.manage22 {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.heading-first {
+    width: 100%;
+}
+
+.heading-first h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+.recharge {
+    width: 100%;
+}
+
+.recharge ul {
+    padding: 0px;
+}
+
+.recharge ul li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.recharge ul li a {
+    text-decoration: none;
+}
+
+.recharge ul li a i {
+    background-color: #6AECE1;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    font-size: 17px;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.recharge ul li a span {
+    color: #666;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.codes {
+    width: 100%;
+    max-width: 360px;
+    background-color: #F3F4F4;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.main-qr {
+    width: 30%;
+}
+
+.mian-qr2 {
+    width: 100%;
+}
+
+.mian-qr2 img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.download {
+    width: 70%;
+}
+
+.downloads2 {
+    width: 100%;
+}
+
+.downloads2 h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #666666;
+    padding-top: 10px;
+}
+
+.downloads2 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #7a7a7a;
+    margin-top: 10px;
+}
+
+
+.welcome {
+    width: 50%;
+}
+
+.welcome-containt {
+    width: 100%;
+}
+
+.wel-jio {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #dddddd;
+    padding: 25px;
+}
+
+.log-in {
+    width: 100%;
+}
+
+.log-into {
+    width: 100%;
+}
+
+.log-into h1 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.log-into p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7a;
+}
+
+.fiber-mobile {
+    width: 100%;
+    background-color: #dddddd59;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 28px;
+    
+
+}
+
+.mobile {
+    width: 100%;
+}
+
+.btn {
+    padding: 9px 38px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+ 
+
+}
+
+.btn i {
+    color: #0B2D72;
+    font-size: 22px;
+    padding-right: 13px;
+    vertical-align: middle !important;
+}
+
+.btn span {
+    font-size: 19px;
+    color: #0B2D72;
+    vertical-align: middle;
+}
+
+.btn2 {
+    padding: 8px 32px;
+    border-radius: 50px;
+    border: none;
+    background-color: #dddddd00;
+    cursor: pointer;
+}
+
+.btn2 i {
+    font-size: 22px;
+    color: #0B2D72;
+     padding-right: 13px;
+    vertical-align: middle !important;
+}
+
+.btn2 span{
+    font-size: 19px;
+    color: #0B2D72;
+    vertical-align: middle;
+}
+.active{
+    background-color: #0B2D72;
+}
+.active i{
+    color: white;
+}
+.active span{
+    color: #ffffff;
+}
+
+
+
+
+
+
+.contect-number {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.numbering {
+    width: 100%;
+    display: none;
+
+}
+
+.numbering input {
+    width: 390px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #666666;
+}
+
+.numbering input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.fiber-jio {
+    width: 100%;
+     display: none;
+
+
+}
+
+.fiber-jio input {
+    width: 390px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #666666;
+   
+    
+
+
+}
+.showinput{
+    display: block;
+}
+
+.fiber-jio input::placeholder {
+    font-size: 20px !important;
+    font-weight: 500;
+    color: #666666;
+}
+
+.otp {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.otp button {
+    background-color: #0B2D72;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: none;
+}
+
+.other-login {
+    width: 100%;
+}
+
+.other-login p {
+    padding-left: 110px;
+    font-size: 15px;
+    color: #111FA2;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    .menu ul li {
+        padding-left: 5px !important;
+    }
+
+    .menu ul li a {
+        font-size: 10px;
+    }
+
+    .menu ul li a span {
+        top: -10px;
+        left: 7px;
+        font-size: 10px;
+    }
+
+    .otp button {
+        width: 100%;
+        font-size: 13px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .heading-first h1 {
+        font-size: 30px;
+    }
+
+    .banner {
+        gap: 25px;
+    }
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .manage {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .otp button {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        margin-top: 28px;
+        width: 100%;
+        padding: 18px;
+    }
+
+    .other-login p {
+        display: none;
+    }
+
+    .header-start {
+
+        justify-content: space-around;
+    }
+
+    .log-into h1 {
+        font-size: 44px;
+        font-weight: 900;
+
+    }
+
+    .mobile2 ul li a i {
+        max-width: 410px;
+    }
+
+    .mobile2 {
+        text-align: center;
+    }
+
+    .mobile2 ul li a i {
+        font-size: 25px;
+    }
+
+    .jio2 {
+        text-align: center;
+    }
+
+    .jio2 ul li a i {
+        font-size: 25px;
+    }
+
+    .wel-jio {
+        box-shadow: none;
+        text-align: left;
+    }
+
+    .log-into p {
+        margin-top: 2px;
+    }
+
+    .banner {
+        margin-top: 30px;
+    }
+
+    .contect-number {
+        margin-top: 55px;
+    }
+}

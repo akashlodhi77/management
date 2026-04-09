@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="section">
+        <div class="header-main">
+            <div class="container">
+                <div class="header-start">
+                    <div class="logo">
+                        <img src="image/jio.png" alt="">
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">True 5G <span>New</span></a></li>
+                            <li><a href="#">Jio Fiber</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-right2">
+                        <span> <i class="fa fa-search" aria-hidden="true"></i></span>
+                        <input type="text" placeholder="Search">
+
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section">
+        <div class="banner-main">
+            <div class="container">
+                <div class="banner">
+                    <div class="manage">
+                        <div class="manage22">
+                            <div class="heading-first">
+                                <h1>Manage your Digital Life with the MyJio app</h1>
+                            </div>
+                            <div class="recharge">
+                                    <ul>
+                                        <li><a href="#"><i class="bi bi-check-lg"></i><span>Recharge,pay bills, and cheak balance</span></a></li>
+                                        <li><a href="#"><i class="bi bi-check-lg"></i><span>Shop UPI, and health</span></a></li>
+                                        <li><a href="#"><i class="bi bi-check-lg"></i><span>Movies,music and games</span></a></li>
+                                        <li><a href="#"><i class="bi bi-check-lg"></i><span>Insent help with JioCare</span></a></li>
+                                    </ul>
+                            </div>
+                            <div class="codes">
+                                <div class="main-qr">
+                                    <div class="mian-qr2">
+                                            <img src="image/qr-code.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="download">
+                                    <div class="downloads2">
+                                        <h2>Download My Jio now</h2>
+                                        <p>Scan the QR code with your mobile to download the app.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome">
+                        <div class="welcome-containt">
+                            <div class="wel-jio">
+                                <div class="log-in">
+                                    <div class="log-into">
+                                        <h1>Welcome to Jio</h1>
+                                        <p>Log in to unlock a world of digital experiences.</p>
+                                    </div>
+                                    <div class="fiber-mobile">
+                                        <div class="mobile">
+                                         <button class="btn active">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i><span>Mobile</span>
+                                         </button>
+                                         <button class="btn2">
+                                            <i class="bi bi-router-fill"></i><span>Jio Fiber</span>
+                                         </button> 
+                                               
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="contect-number">
+                                        <div class="numbering  showinput">
+                                            <input  type="text" placeholder="Mobile Number">
+                                        </div>
+                                        <div class="fiber-jio ">
+                                        <input  type="text" placeholder="Jio Fiber">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="otp">
+                                    <button>Generet otp</button>
+
+                                </div>
+                            </div>
+                            <div class="other-login">
+                                <p>Other login options: JioFi, Lost SIM etc. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+<script src="js/jquery-4.0.0.js"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+
+   $(".btn").click(function(){
+    $(".btn").addClass("active");
+    $(".btn2").removeClass("active");
+    $(".numbering").addClass("showinput");
+    $(".fiber-jio").removeClass("showinput");
+   });
+  });
+
+
+
+
+    $(document).ready(function(){
+
+   $(".btn2").click(function(){
+    $(".btn2").addClass("active");
+    $(".btn").removeClass("active");
+     $(".fiber-jio").addClass("showinput");
+     $(".numbering").removeClass("showinput");
+   
+   });
+  });
+</script>
+
+
+</body>
+</html>
